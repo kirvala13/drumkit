@@ -1,0 +1,42 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+     background-image: url(/bgdrum.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+*{
+    box-sizing: border-box;
+}
+kbd{
+    font-size: 40px;
+}
+.keys{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+     gap: 40px;
+}
+.key{
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    color: rgb(191, 215, 37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    transition:all 0.07s ;
+}
+.playing{
+    transform: scale(1.1);
+    color: orange;
+    border-color: orange;
+    box-shadow: 0 0 10px orange;
+}
